@@ -6,7 +6,6 @@
  *    *    * @c: using the ANSCII table
  *     *     *
  *      *      * Return: 1 (Pass) OR 0 (Error)
- *
 */
 
 int _islower(int c)
