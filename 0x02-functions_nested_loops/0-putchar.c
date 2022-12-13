@@ -1,8 +1,21 @@
-#include <stdio.h>
+#include "holberton.h"
 
-int main (){
+/**
+ *  *  * main - Print "Holberton"
+ *   *   *
+ *    *    * Return: Always 0 (Success)
+ *     */
 
-	printf("_printf\n");
+int main(void)
+{
+		int i = 0;
+			char name_of_school[] = "_putchar";
 
-	return 0;
+				while (i < 9)
+						{
+									_putchar(name_of_school[i]);
+											i++;
+												}
+					_putchar('\n');
+						return (0);
 }
