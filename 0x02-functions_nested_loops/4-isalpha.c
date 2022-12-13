@@ -6,7 +6,7 @@
  *    *    * @c: Alphabatic function
  *     *     *
  *      *      * Return: 1 (Pass) OR 0 (Error)
- *       */
+*/
 
 int _isalpha(int c)
 {
