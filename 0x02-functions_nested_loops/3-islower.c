@@ -3,7 +3,7 @@
 /**
  *  *  * _islower - Checks for lowercase character
  *   *   *
- *    *    * using the ANSCII table
+ *    *    * @c: using the ANSCII table
  *     *     *
  *      *      * Return: 1 (Pass) OR 0 (Error)
  *
