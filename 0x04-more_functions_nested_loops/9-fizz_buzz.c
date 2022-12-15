@@ -3,7 +3,8 @@
 /**
  *  *  * main -  scans for a number (0 through 9).
  *   *   * Return:  0.
- *        */
+*/
+
 int main(void)
 {
 	int i;
