@@ -2,9 +2,10 @@
 
 /**
  *  *  * _isupper - function checks for uppercase character
- *   *   * @c: Checker
+ *   *   * @c:Checker
  *    *    * Return: 1 if c is uppercase, 0 if not
 */
+
 int _isupper(int c)
 {
 	if ((c >= 65) && (c <= 90))
@@ -12,4 +13,3 @@ int _isupper(int c)
 	else
 		return (0);
 }
-
