@@ -9,7 +9,7 @@
 
 void _puts(char *s)
 {
-	size_t	i;
+	int i;
 
 	i = 0;
 	if (s == NULL)
