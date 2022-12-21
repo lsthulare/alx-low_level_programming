@@ -14,7 +14,7 @@ void _puts(char *s)
 	i = 0;
 	if (s == NULL)
 	{
-		return ;
+		return;
 	}
 	while (s[i])
 	{
