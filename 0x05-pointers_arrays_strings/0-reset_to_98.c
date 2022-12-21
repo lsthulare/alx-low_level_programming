@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * * @n: int to check
- * * reset - resets int
+ * reset_to_98 - takes pointer & updates
+ * * @n:resets int
  * * owned by user
- * * return 0
+ * * return 0 if success
 */
 
 void reset_to_98(int *n)

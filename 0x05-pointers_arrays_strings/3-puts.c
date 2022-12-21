@@ -7,7 +7,7 @@
  *     * Return: the length of the string
 */
 
-void	ft_putstr(char const *s)
+void puts(char const *s)
 {
 	size_t	i;
 
