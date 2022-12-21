@@ -3,8 +3,6 @@
 /**
  * * print_rev -> prints string in reverse
  * * @s: the string to be printed in rev
- * * Description Thia function reverses a string
- * * Owned by user
 */
 
 void print_rev(char *s)
