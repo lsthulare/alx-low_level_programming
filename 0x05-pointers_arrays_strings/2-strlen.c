@@ -6,12 +6,11 @@
  *      * Return: 0 is success
 */
 
-size_t	ft_strlen(const char *s)
+int _strlen(char *s)
 {
-	size_t	i;
-	
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	int a = 0;
+
+	for (*s++;)
+		a++;
+	return (a);
 }
