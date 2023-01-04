@@ -15,7 +15,7 @@
 
 void *_memset(void *b, int c, size_t len)
 {
-	char *p;
+	char	*p;
 
 	p = (char *)b;
 
