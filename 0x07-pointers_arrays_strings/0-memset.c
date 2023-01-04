@@ -24,5 +24,6 @@ void	*_memset(void *b, int c, size_t len)
 		p[len - 1] = c;
 		len--;
 	}
+
 	return (b);
 }
