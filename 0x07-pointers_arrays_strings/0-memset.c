@@ -13,16 +13,15 @@
  *           * Return: a pointer to the memory area @s
 */
 
-void *_memset(void *b, int c, size_t len)
+char *_memset(char *s, char b, unsigned int n)
 {
-	char *p;
+	unsigned int i = 0;
 
-	p = (char *)b;
-
-	while (len > 0)
+	while (i < n)
 	{
-		p[len - 1] = c;
-		len--;
+		s[i] = b;
+		i++;
 	}
-	return (b);
+
+	return (s);
 }
