@@ -9,27 +9,26 @@
  *       * Return: a pointer beg of substring or @Null if it not foound.
 */
 
-char *_strstr(const char *haystack, const char *needle)
+char *_strstr(char *haystack, char *needle)
 {
-	size_t	cneed;
-	size_t	chay;
+	unsigned int i = 0, j = 0;
 
-	chay = 0;
-	
-	if (needle[0] == '\0')
+	while (haystack[i])
 	{
-		return ((char *)haystack);
-	}
-	while (haystack[chay] != '\0')
-	{
-		cneed = 0;
-		while (haystack[chay + cneed] == needle[cneed])
+		while (needle[j] && (haystack[i] == needle[0]))
 		{
-			if (needle[cneed + 1] == '\0')
-				return ((char *)haystack + chay);
-			cneed++;
+			if (haystack[i + j] == needle[j])
+				j++;
+			else
+				break;
 		}
-		chay++;
+		if (needle[j])
+		{
+			i++;
+			j = 0;
+		}
+		else
+			return (haystack + i);
 	}
-	return (NULL);
+	return (0);
 }
