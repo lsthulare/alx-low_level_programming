@@ -9,7 +9,7 @@
  *       * Return: a pointer beg of substring or @Null if it not foound.
 */
 
-char	*_strstr(const char *haystack, const char *needle)
+char *_strstr(const char *haystack, const char *needle)
 {
 	size_t	cneed;
 	size_t	chay;
