@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- *  * function create_array - Creates array of chars and
- *    initializes it with choosen char
+ *   function create_array - Creates array of chars and
+ *   initializes it with choosen char
  *   @c: initial size of array
  *   @size: The number of stored characters
  *   Return: If size == 0 or the function fails - NULL.
