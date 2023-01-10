@@ -21,13 +21,13 @@ char	*str_concat(char *s1, char *s2)
 
 	i = 0;
 	j = 0;
-	if (!s1 || !s2 == "")
+	if (s1 || s2 == "")
 	{
 		return (NULL);
 	}
 	for (index = 0; s1[index] || s2[index]; index++)
 		len++;
-	str = (char *)malloc(sizeof(char) * len + 1);
+	str = (char *)malloc(sizeof(char) * len);
 	if (str == NULL)
 		return (NULL);
 	while (s1[i] != '\0')
