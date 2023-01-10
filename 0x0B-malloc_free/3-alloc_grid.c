@@ -6,7 +6,6 @@
  *    * @width: width size of a 2-dimensional array.
  *     * @height: The height of the dimensional array
  *       * Return: If width <= 0, height <= 0, or the function fails - NULL.
- *        *         Otherwise - a pointer to the 2-dimensional array of integers.
 */
 
 int **alloc_grid(int width, int height)
@@ -27,13 +26,13 @@ int **alloc_grid(int width, int height)
 		dimen[length] = malloc(sizeof(int) * width);
 
 		if (dimen[length] == NULL)
-		{															
+		{
 			for (; length >= 0; length--)
 				free(dimen[length]);
-																
+
 			free(dimen);
 			return (NULL);
-																				}
+		}
 	}
 	for (length = 0; length < height; length++)
 	{
