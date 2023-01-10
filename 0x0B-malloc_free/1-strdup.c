@@ -3,7 +3,7 @@
 
 /**
  *  * _strdup - copy a string to a newly allocated space in memory
- *   * @str:copy string    
+ *   * @str:copy string
  * Return: address to duplicated string or NULL if null
 */
 
@@ -15,8 +15,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; str[i]; i++)
-		;
+	for (i = 0; str[i]; i+)
 	i++;
 
 	s = malloc(i * sizeof(char));
