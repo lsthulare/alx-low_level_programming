@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 
 	space = max - min + 1;
 
-	array = malloc(spaceof(int) * space);
+	array = malloc(sizeof(int) * space);
 
 	if (array == NULL)
 	{

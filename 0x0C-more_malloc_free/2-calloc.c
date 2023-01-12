@@ -28,7 +28,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 	//rplc =arr;
 	for (index = 0; index < (size * nmemb); index++)
-		arr[index] = '\0';
+		arr[index] = 0;
 
 	return (arr);
 }
