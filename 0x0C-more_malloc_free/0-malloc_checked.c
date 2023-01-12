@@ -4,7 +4,6 @@
 /**
  *  * malloc_checked - allocates a block of memory using malloc
  *   * @b: space to allocate
- *    *
  *     * Return: pointer to allocated memory or normal process termination if null
 */
 
